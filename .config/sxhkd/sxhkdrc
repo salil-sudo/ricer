@@ -93,12 +93,11 @@ F5
 F3
 	amixer set Master toggle
 
-
-#light settings
 F9
-	xbacklight -inc 5
+	backlight_control +5
 F8
-	xbacklight -dec 5
+	backlight_control -5
+
 
 # Pull up vim manual
 alt + shift + v
