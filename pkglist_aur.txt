@@ -1,0 +1,9 @@
+aleo-fonts
+backlight_control
+bottom
+libxft-bgra
+mkinitcpio-openswap
+ncurses5-compat-libs
+picom-tryone-git
+rofi-dmenu
+ttf-font-awesome-4

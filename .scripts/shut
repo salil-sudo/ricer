@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+# choices will be displayed in dmenu
+choices="Poweroff\nReboot\nLogout"
+
+# Your choice in dmenu will determine what xrandr command to run
+chosen=$(echo -e $choices | dmenu -i)
+
+case "$chosen" in
+    Poweroff) poweroff ;;
+    Reboot) reboot ;;
+    Logout) bspc quit ;;
+esac

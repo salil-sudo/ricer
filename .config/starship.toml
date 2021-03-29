@@ -1,0 +1,14 @@
+format = """
+$directory$character
+"""
+
+[line_break]
+disabled = true
+
+[directory]
+truncation_length = 5
+
+[character]
+error_symbol = "[✗](bold red)"
+vicmd_symbol = "[🆅](bold green) "
+success_symbol = "[ ](bold green)"
