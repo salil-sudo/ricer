@@ -28,4 +28,5 @@ sudo pacman -Syu
 sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 sudo sed -i 's/Current=/Current=sugar-candy/g' /etc/sddm.conf
 sudo cp ~/Pictures/wallpapers/patrick-fore-74TufExdP3Y-unsplash.jpg /usr/share/sddm/themes/sugar-candy/Backgrounds/
-sudo sed -i 's/Mountain.jpg/patrick-fore-74TufExdP3Y-unsplash.jpg/g' /usr/share/sddm/themes/sugar-candy/theme.conf
+sudo rm /usr/share/sddm/themes/sugar-candy/theme.conf
+sudo cp ./theme.conf /usr/share/sddm/themes/sugar-candy/
