@@ -1,5 +1,5 @@
 
-# Ricer: A script that installs my setup on Arch Linux
+# Ricer: A script that installs my setup on Arco Linux
 
 <p align="middle">
   <img src=images/arco_unix.gif height="90%" width="90%">
@@ -20,10 +20,7 @@ Some features and specs of this setup can be found [here](https://github.com/sal
 
 #### If you are testing this in a virtual machine, please refer to [known issues](#known-issues) section.
 
-This script is intended to work with freshly installed Arch (vanilla Arch). Make sure you have created a user and **logged in as a user** and **not as root**. You will have to install `git` .
-
-    sudo pacman -S git
-
+This script is intended to work with freshly installed Arco (vanilla Arco). Make sure you have created a user and **logged in as a user** and **not as root**.
 ## Installation
 
 Installation is straightforward:
