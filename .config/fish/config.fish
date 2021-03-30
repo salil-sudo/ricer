@@ -26,6 +26,11 @@ alias cfro='cd ~/.config/rofi'
 abbr -a chx chmod +x
 abbr -a ne nvim
 abbr -a cpi nvim ~/.config/picom.conf
+abbr -a U sudo pacman -Syu
+abbr -a I sudo pacman -S
+abbr -a R sudo pacman -Rs
+abbr -a Y yay -S
+abbr -a YR yay -Rs
 
 
 
