@@ -12,19 +12,19 @@ chosen=$(echo -e $choices | dmenu -i)
 
 # This is used to determine which external display you have connected
 # This may vary between OS. e.g VGA1 instead of VGA-1
-if [ `xrandr | grep VGA1 | grep -c ' connected '` -eq 1 ]; then
+if [ "$(xrandr | grep VGA1 | grep -c ' connected ')" -eq 1 ]; then
         EXTERNAL_OUTPUT="VGA1"
 fi
-if [ `xrandr | grep DVI1 | grep -c ' connected '` -eq 1 ]; then
+if [ "$(xrandr | grep DVI1 | grep -c ' connected ')" -eq 1 ]; then
         EXTERNAL_OUTPUT="DVI1"
 fi
-if [ `xrandr | grep HDMI1 | grep -c ' connected '` -eq 1 ]; then
+if [ "$(xrandr | grep HDMI1 | grep -c ' connected ')" -eq 1 ]; then
         EXTERNAL_OUTPUT="HDMI1"
 fi
-if [ `xrandr | grep HDMI2 | grep -c ' connected '` -eq 1 ]; then
+if [ "$(xrandr | grep HDMI2 | grep -c ' connected ')" -eq 1 ]; then
         EXTERNAL_OUTPUT="HDMI2"
 fi
-if [ `xrandr | grep HDMI3 | grep -c ' connected '` -eq 1 ]; then
+if [ "$(xrandr | grep HDMI3 | grep -c ' connected ')" -eq 1 ]; then
         EXTERNAL_OUTPUT="HDMI3"
 fi
 

@@ -69,7 +69,7 @@ alt + y
 
 #switch between displays
 alt + shift + s
-	/home/salil/.scripts/display.sh
+	/home/salil/.scripts/display
 
 #Get emoji
 alt + shift + e

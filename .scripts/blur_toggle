@@ -5,11 +5,11 @@ TOG1="  normal = { blur-background = true; };"
 TOG0="  normal = { blur-background = false; };"
 CUR_STATE=$(grep "normal = { blur-background =" $DIR)
 
-[[ $CUR_STATE == $TOG1 ]] && sed -i "s/$TOG1/$TOG0/g" $DIR || sed -i "s/$TOG0/$TOG1/g" $DIR
+if [[ $CUR_STATE == "$TOG1" ]]; then sed -i "s/$TOG1/$TOG0/g" $DIR; else sed -i "s/$TOG0/$TOG1/g" $DIR; fi
 
 
 TOG1="  dock   = { blur-background = true; };"
 TOG0="  dock   = { blur-background = false; };"
 CUR_STATE=$(grep "dock   = { blur-background =" $DIR)
 
-[[ $CUR_STATE == $TOG1 ]] && sed -i "s/$TOG1/$TOG0/g" $DIR || sed -i "s/$TOG0/$TOG1/g" $DIR
+if [[ $CUR_STATE == "$TOG1" ]]; then sed -i "s/$TOG1/$TOG0/g" $DIR; else sed -i "s/$TOG0/$TOG1/g" $DIR; fi
