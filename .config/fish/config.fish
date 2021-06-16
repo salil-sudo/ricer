@@ -1,30 +1,27 @@
+
 set --erase fish_greeting
 function fish_greeting
 end
-
 
 set fish_cursor_default     block      blink
 set fish_cursor_insert      line       blink
 set fish_cursor_replace_one underscore blink
 set fish_cursor_visual      block
-
-
 alias cf='cd ~/.config'
-alias cfb='cd ~/.config/bspwm'
-alias cfs='cd ~/.config/sxhkd'
-alias cfi='cd ~/.config/i3'
-alias cfp='cd ~/.config/polybar'
+alias l='ls'
+alias cfb='nvim ~/.config/bspwm/bspwmrc'
+alias cfs='nvim ~/.config/sxhkd/sxhkdrc'
+alias cfp='nvim ~/.config/polybar/config'
 alias ch='cd ~/'
 alias cs='cd ~/.scripts'
-alias cff='cd ~/.config/fish'
+alias cff='nvim ~/.config/fish/config.fish'
 alias la='ls -A'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias cfn='cd ~/.config/nvim'
 alias cfnp='cd ~/.config/nvim/vim-plug'
-alias cff='cd ~/.config/fish'
 alias cfra='cd ~/.config/ranger'
-alias cfd='cd ~/.config/dunst'
+alias cfd='nvim ~/.config/dunst/dunstrc'
 alias cfro='cd ~/.config/rofi'
 
 abbr -a chx chmod +x
@@ -38,5 +35,5 @@ abbr -a YR yay -Rs
 
 
 
-
+set -gx EDITOR nvim
 starship init fish | source

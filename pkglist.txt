@@ -192,6 +192,7 @@ ttf-hack
 ttf-joypixels
 ttf-ubuntu-font-family
 ueberzug
+unzip
 upower
 urxvt-perls
 urxvt-resize-font-git
@@ -256,3 +257,4 @@ xorg-xwud
 yay-bin
 zathura
 zathura-pdf-mupdf
+zip
