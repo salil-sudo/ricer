@@ -28,7 +28,6 @@ binutils
 bison
 blueberry
 bluez-utils
-brave-bin
 broadcom-wl
 bspwm
 btrfs-progs
@@ -207,6 +206,7 @@ wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
+xclip
 xdg-user-dirs
 xdotool
 xf86-input-elographics

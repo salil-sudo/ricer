@@ -1,4 +1,5 @@
 aleo-fonts
+brave-bin
 backlight_control
 bottom
 libxft-bgra

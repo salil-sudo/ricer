@@ -6,7 +6,7 @@ sudo pacman -S --noconfirm --needed - < pkglist.txt
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-cd ~/archricer
+cd ~/ricer
 sudo rm -r yay
 #for word in $(cat pkglist_aur.txt); do yay -S --needed $word || true; done
 exec 9<pkglist_aur.txt
@@ -17,7 +17,7 @@ sed -i "s/salil/$USER/g" ./.scripts/* ./.config/bspwm/* ./.config/sxhkd/* ./.con
 cp -R ./.config ./.scripts ./.cache ./.local ~/
 cd ~/.config/st
 sudo make install
-cd ~/archricer
+cd ~/ricer
 sudo pip3 install pywal
 sudo pip install spotify-cli-linux
 pip install dbus-python
