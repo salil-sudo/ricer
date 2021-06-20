@@ -15,6 +15,7 @@ yay -S libxft-bgra
 chmod -R +x ./.scripts/
 sed -i "s/salil/$USER/g" ./.scripts/* ./.config/bspwm/* ./.config/sxhkd/* ./.config/rofi/* ./.config/fish/*
 cp -R ./.config ./.scripts ./.cache ./.local ~/
+cp ./.xinitrc ~/
 cd ~/.config/st
 sudo make install
 cd ~/ricer
